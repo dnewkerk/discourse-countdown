@@ -1,0 +1,9 @@
+en:
+  site_settings:
+    discourse_countdown_enabled: "Enable discourse-countdown"
+    discourse_countdown_date: "Date"
+    discourse_countdown_text: "Primary text"
+    discourse_countdown_secondary_text: "Secondary text"
+    discourse_countdown_url: "URL"
+    discourse_countdown_new_window: "Open link in a new window"
+    discourse_countdown_classes: "Space separated CSS classes (optional)"

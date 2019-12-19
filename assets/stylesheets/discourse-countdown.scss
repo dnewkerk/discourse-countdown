@@ -1,0 +1,23 @@
+.countdown {
+  margin-right: 2em;
+  .wrap {
+    display: flex;
+    align-items: center;
+  }
+  .days {
+    color: #4a4c9f;
+    font-weight: bold;
+    font-size: 1em;
+    margin-right: 8px;
+    padding: 5px;
+    background: #fff;
+  }
+  .text-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .text, .secondary-text {
+    font-size: 0.85em;
+    color: #fff;
+  }
+}

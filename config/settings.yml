@@ -1,0 +1,22 @@
+plugins:
+  discourse_countdown_enabled:
+    default: false
+    client: true
+  discourse_countdown_date:
+    default: ''
+    client: true
+  discourse_countdown_text:
+    default: ''
+    client: true
+  discourse_countdown_secondary_text:
+    default: ''
+    client: true
+  discourse_countdown_url:
+    default: ''
+    client: true
+  discourse_countdown_new_window:
+    default: true
+    client: true
+  discourse_countdown_classes:
+    default: ''
+    client: true
