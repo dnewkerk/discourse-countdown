@@ -4,6 +4,7 @@ import { h } from 'virtual-dom';
 
 createWidget('countdown', {
   tagName: 'div.discourse-countdown',
+  buildKey: () => 'countdown',
 
   html(attrs) {
     const now = moment();
@@ -45,6 +46,7 @@ createWidget('countdown', {
 
 // Countdown is time sensitive, so rerender on page changes.
 decorateWidget('countdown:after', helper => {
+  helper.widget.appEvents.off('page:changed', this);
   helper.widget.appEvents.on('page:changed', () => {
     helper.widget.scheduleRerender();
   });
