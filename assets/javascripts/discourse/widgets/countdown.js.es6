@@ -31,7 +31,8 @@ createWidget('countdown', {
             {
               'href': Discourse.SiteSettings.discourse_countdown_url,
               'attributes': {
-                'target': ((Discourse.SiteSettings.discourse_countdown_new_window) ? '_blank' : '_self')
+                'target': ((Discourse.SiteSettings.discourse_countdown_new_window) ? '_blank' : '_self'),
+                'rel': 'noopener'
               }
             },
             countdownContent

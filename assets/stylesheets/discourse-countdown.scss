@@ -20,3 +20,10 @@
     color: #fff;
   }
 }
+
+// Fix Sign Up and Log In button position.
+.header-buttons {
+  .widget-button {
+    margin-left: auto;
+  }
+}
