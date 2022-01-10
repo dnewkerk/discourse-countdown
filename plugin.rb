@@ -2,7 +2,7 @@
 
 # name: discourse-countdown
 # about: Countdown to the specified date.
-# version: 0.5
+# version: 0.6
 # authors: dnewkerk
 # url: https://github.com/dnewkerk/discourse-countdown
 

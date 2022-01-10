@@ -4,7 +4,7 @@ import { decorateWidget } from "discourse/widgets/widget";
 export default {
   name: "discourse-countdown",
   initialize() {
-    withPluginApi("0.11.5", (api) => {
+    withPluginApi("0.13.0", (api) => {
       const siteSettings = api.container.lookup("site-settings:main");
       if (!siteSettings.discourse_countdown_date) {
         return;
